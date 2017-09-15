@@ -10,9 +10,8 @@ def RemoveDupsLoop(oldlist):
     return newlist
 
 def RemoveDupsSet(oldlist):
-    newlist = []
-    
-    return newlist
+    newset = set(oldlist)
+    return list(newset)
 
 def GetList():
     numlist = []
